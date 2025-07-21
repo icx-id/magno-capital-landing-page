@@ -1,0 +1,39 @@
+{
+    "home": {
+        "header": {
+            "title": "Strength in Elegance",
+            "subtitle": "Your Right Partner To The Next Level of Ventures"
+        },
+        "about_us": {
+            "description_one": "Inspired by the enduring magnolia,",
+            "description_two": "Magno Capital is built on timeless resilience, strategic discipline, and an unwavering pursuit of growth.",
+            "description_three": "We partner with bold ventures to unlock potential and deliver lasting impact."
+        },
+        "our_values": {
+            "description_one": "We help founders refine their business model, organize their financials, and prepare their company to scale  with clarity, focus, and readiness for institutional capital or IPO.",
+            "description_two": "We open the right doors  connecting founders to trusted operators, strategic partners, and capital networks that accelerate progress, not just conversations.",
+            "description_three": "We move with founders, not above them  offering support that’s aligned, discreet, and focused on long-term success."
+        },
+        "portfolio": {
+            "olaif": "Olaif is redefining consumer wellness through science-backed products and transparent innovation.",
+            "bythen": "A digital-native lifestyle brand crafting smart solutions for modern living—sustainability, style, and substance in perfect sync.",
+            "icx": "ICX is our flagship investment platform focused on scaling high-growth consumer and digital-first businesses. To date, we’ve secured over IDR 250 Billion+ in equity across 20+ brands"
+        },
+        "our_partners": {
+            "description": {
+                "romario_sumargo": {
+                    "first_paragraph": "Romario Sumargo is the CEO of ICX (Indonesia Crowdfunding Exchange) the leading Equity Crowdfunding platform in Indonesia with over Rp 250 Billion equity fund distributed to over 20 brands.",
+                    "first_paragraph_two": "",
+                    "second_paragraph": "He also active as a Founding Board Member & General Treasurer of ALUDI (Asosiasi Layanan Urun Dana Indonesia) in 2020-2023.",
+                    "third_paragraph": ""
+                },
+                "tomy": {
+                    "first_paragraph": "Tomy is a seasoned investor and educator with over a decade of experience in the capital markets.",
+                    "first_paragraph_two": "Prior to co-founding Magno Capital, he built a strong reputation in both public and private market investing.",
+                    "second_paragraph": "He is the co-founder of Stock Up Indonesia, a widely used investing education platform focused on fundamental investing, serving over 10,000 active users and a community of more than 250,000 followers across social media.",
+                    "third_paragraph": "Tomy previously served as Head of Portfolio Management at ICX (Indonesia Crowdfunding Exchange), where he oversaw portfolio strategy, secondary market operations, and performance monitoring for all listed companies."
+                }
+            }
+        }
+    }
+}
