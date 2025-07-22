@@ -71,8 +71,7 @@ const AboutUsSection: React.FC = () => {
           }}
           maw={{ md: '687px' }}>
           {t('description_one')} <br />
-          {t('description_two')} <br />
-          {t('description_three')}
+          {t('description_two')}
         </Text>
       </Stack>
     </Stack>
