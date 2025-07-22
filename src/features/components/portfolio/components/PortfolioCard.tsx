@@ -8,20 +8,23 @@ import Image from 'next/image';
 import { useMediaQuery } from '@mantine/hooks';
 
 export const PortflioCard: React.FC<PortflioProps> = props => {
-  const { name, description, image } = props;
+  const { name, description, image, url } = props;
   const mobile = useMediaQuery(`(max-width: 600px)`);
   const t = useTranslations('home.portfolio');
 
   return (
-    <Stack>
+    <Stack
+      style={{ cursor: 'pointer' }}
+      onClick={() => {
+        window.open(url, '_blank');
+      }}>
       <Flex w="100%" justify="center">
         <Box
           w="100%"
-          maw={{ base: '325.88px', xl: '540px' }}
-          h={{ base: '238.37px', xl: '360px' }}
           pos="relative"
           style={{
             borderRadius: mobile ? '12px' : '20px',
+            aspectRatio: '16 / 9',
           }}>
           <Image
             src={image}
