@@ -12,14 +12,14 @@ export const ourPartners: OurPartner[] = [
   {
     id: 1,
     name: 'Romario Sumargo',
-    image: '/assets/home/our-partners/romario-sumargo.webp',
+    image: '/assets/home/our-partners/romario-sumargo.png',
     paragraphOne: 'description.romario_sumargo.first_paragraph',
     paragraphTwo: 'description.romario_sumargo.second_paragraph',
   },
   {
     id: 2,
     name: 'Tomy',
-    image: '/assets/home/our-partners/tomy.webp',
+    image: '/assets/home/our-partners/tomy.png',
     paragraphOne: 'description.tomy.first_paragraph',
     paragraphOnePartTwo: 'description.tomy.first_paragraph_two',
     paragraphTwo: 'description.tomy.second_paragraph',

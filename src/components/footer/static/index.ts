@@ -17,7 +17,7 @@ export const magnoCapitalContacts: MagnoCapitalContacts[] = [
     info: '+62 21 51401627',
     fontSize: {
       base: '32px',
-      md: '25.6px',
+      md: '32px',
     },
   },
   {
@@ -26,8 +26,8 @@ export const magnoCapitalContacts: MagnoCapitalContacts[] = [
     image: '/assets/footer/ic_whatsapp.svg',
     info: '+6281381862878',
     fontSize: {
-      base: '39px',
-      md: '31.2px',
+      base: '36px',
+      md: '36px',
     },
   },
   {
@@ -37,7 +37,7 @@ export const magnoCapitalContacts: MagnoCapitalContacts[] = [
     info: 'corporate@icxgroup.id',
     fontSize: {
       base: '32px',
-      md: '25.6px',
+      md: '32px',
     },
   },
 ];
