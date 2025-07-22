@@ -44,20 +44,18 @@ const MenuNav: React.FC<MenuNavProps> = ({ open, setOpen, onClickMenu }) => (
         <Stack gap="25px" mt="93px">
           {React.Children.toArray(
             navbarMenus.map(navItem => (
-              <>
-                <Text
-                  key={navItem.id}
-                  fw={400}
-                  fz="48px"
-                  lh="100%"
-                  c="black"
-                  onClick={() => onClickMenu(navItem.href, true)}
-                  style={{
-                    cursor: 'pointer',
-                  }}>
-                  {navItem.name}
-                </Text>
-              </>
+              <Text
+                key={navItem.id}
+                fw={400}
+                fz="48px"
+                lh="100%"
+                c="black"
+                onClick={() => onClickMenu(navItem.href, true)}
+                style={{
+                  cursor: 'pointer',
+                }}>
+                {navItem.name}
+              </Text>
             )),
           )}
         </Stack>
