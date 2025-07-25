@@ -35,18 +35,22 @@ const ContactUsForm: React.FC = () => {
         message: '',
       }}
       onSubmit={(values: ContactUsFormValues, { resetForm }) => {
-        const waNumber = '6285947130178';
+        const mailContact = 'raffaelwdj@gmail.com';
         const { fullName, company, phoneNumber, email, message } = values;
 
-        const waMessage = `Halo ICX Group, saya: 
+        const subject = `Magno Capital Enquiry from ${fullName}`;
+
+        const mailMessage = `Halo Magno Capital Group, saya: 
                 \nNama: ${fullName} 
                 \nCompany: ${company} 
                 \nEmail: ${email} 
-                \nMessage: ${message} 
-                \nTerima kasih`;
+                \nPhone Number: ${phoneNumber} 
+                \n\nMessage: \n${message}`;
 
-        const encodedMessage = encodeURI(waMessage);
-        window.open(`https://wa.me/${waNumber}?text=${encodedMessage}`, '_blank');
+        const encodedMessage = encodeURIComponent(mailMessage);
+
+        const mailtoLink = `mailto:${mailContact}?subject=${subject}&body=${encodedMessage}`;
+        window.location.href = mailtoLink;
 
         resetForm();
       }}>

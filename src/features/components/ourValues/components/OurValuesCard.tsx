@@ -8,7 +8,7 @@ import { useTranslations } from 'next-intl';
 import { useHover, useMediaQuery } from '@mantine/hooks';
 
 const OurValuesCard: React.FC<OurValuesProps> = props => {
-  const { name, image, description, icon, iconSize } = props;
+  const { name, image, descriptionOne, descriptionTwo, icon, iconSize } = props;
   const t = useTranslations('home.our_values');
   const desktop = useMediaQuery(`(min-width: 1200px)`);
 
@@ -80,7 +80,8 @@ const OurValuesCard: React.FC<OurValuesProps> = props => {
             }}
             c="white"
             ta="center">
-            {t(description)}
+            {t(descriptionOne)} <br />
+            {t(descriptionTwo)}
           </Text>
         </Stack>
       </Stack>
