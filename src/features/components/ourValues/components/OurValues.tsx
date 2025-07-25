@@ -18,7 +18,7 @@ const OurValues: React.FC = () => {
         setVisible(entry.isIntersecting);
       },
       {
-        threshold: 0.5,
+        threshold: 0.3,
       },
     );
 

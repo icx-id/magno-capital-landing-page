@@ -104,38 +104,7 @@ const HeaderSection: React.FC = () => {
       pos="relative">
       <Stack justify="center" align="center">
         <AnimatedText text={title} />
-        <AnimatedText text={subtitle} delayOffset={3} isSubtitle />
-        {/* <Box
-          fw={500}
-          fz={{ base: '36px', sm: '48px', xl: '67px' }}
-          lh="100%"
-          c="white"
-          ta="center"
-          maw={{ base: '372px', sm: '872px' }}>
-          {titleSplit.map((char, i) => (
-            <span
-              key={i}
-              style={{
-                display: 'inline-block',
-                transform: animate ? 'translateY(0)' : 'translateY(100%)',
-                opacity: animate ? 1 : 0,
-                transition: 'transform 0.3s ease, opacity 0.3s ease',
-                transitionDelay: `${i * 0.05}s`,
-              }}>
-              {char === ' ' ? '\u00A0' : char}
-            </span>
-          ))}
-        </Box>
-        <Text
-          fw={300}
-          fz={{ base: '20px', sm: '22px', xl: '24px' }}
-          lh="100%"
-          c="white"
-          mt={{ base: '14px', sm: '20px' }}
-          maw={{ base: '271px', sm: '674px' }}
-          ta="center">
-          {t('subtitle')}
-        </Text> */}
+        <AnimatedText text={subtitle} delayOffset={5} isSubtitle />
       </Stack>
     </Stack>
   );
