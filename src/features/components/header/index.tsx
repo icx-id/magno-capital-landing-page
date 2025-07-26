@@ -87,13 +87,12 @@ const AnimatedText: React.FC<AnimatedTextProps> = props => {
 const HeaderSection: React.FC = () => {
   const t = useTranslations('home.header');
   const title = t('title');
-  const subtitle = t('subtitle');
 
   return (
     <Stack
       id="header-section"
       h={{ base: '887px', md: '1080px' }}
-      pt={{ base: '275px', md: '268px' }}
+      pt={{ base: '275px', sm: '348px' }}
       px="38px"
       style={{
         backgroundImage: 'url(/assets/home/header/header-background.webp)',
@@ -102,9 +101,8 @@ const HeaderSection: React.FC = () => {
         backgroundPosition: 'center',
       }}
       pos="relative">
-      <Stack justify="center" align="center">
+      <Stack w="100%" justify="center" align="center">
         <AnimatedText text={title} />
-        <AnimatedText text={subtitle} delayOffset={5} isSubtitle />
       </Stack>
     </Stack>
   );
