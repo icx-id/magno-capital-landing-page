@@ -34,12 +34,39 @@ const OurPartnersCard: React.FC<OurPartner> = props => {
         fw={300}
         fz={{ base: '16px', md: '24px' }}
         c="white"
-        mt={{ base: '13.63px', md: '23px' }}>
-        {t(paragraphOne)} <br />
-        {paragraphOnePartTwo && t(paragraphOnePartTwo)} <br /> <br />
-        {t(paragraphTwo)} <br /> <br />
-        {paragraphThree && t(paragraphThree)}
+        mt={{ base: '11.63px', md: '19px' }}>
+        {t(paragraphOne)}
       </Text>
+
+      {paragraphOnePartTwo && (
+        <Text
+          fw={300}
+          fz={{ base: '16px', md: '24px' }}
+          c="white"
+          mt={{ base: '11.63px', md: '19px' }}>
+          {t(paragraphOnePartTwo)}
+        </Text>
+      )}
+
+      {paragraphTwo && (
+        <Text
+          fw={300}
+          fz={{ base: '16px', md: '24px' }}
+          c="white"
+          mt={{ base: '11.63px', md: '19px' }}>
+          {t(paragraphTwo)}
+        </Text>
+      )}
+
+      {paragraphThree && (
+        <Text
+          fw={300}
+          fz={{ base: '16px', md: '24px' }}
+          c="white"
+          mt={{ base: '11.63px', md: '19px' }}>
+          {t(paragraphThree)}
+        </Text>
+      )}
     </Stack>
   );
 };
